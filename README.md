@@ -11,6 +11,12 @@ Medical-AI-ChatBot is an AI-powered assistant designed to provide users with cur
 - **User-Friendly Interface**: Designed for seamless and intuitive interaction.
 - **Accessible 24/7**: Always available to answer medical-related questions.
 
+## Screenshot
+
+![Image](https://github.com/user-attachments/assets/c2816976-f4dc-4d0c-8b1c-c7aa1b308f6c)
+
+*(Replace `path/to/your/screenshot.png` with the actual path to your chatbot image)*
+
 ## Prerequisites
 
 To run Medical-AI-ChatBot locally, ensure you have the following:
