@@ -6,16 +6,16 @@ Medical-AI-ChatBot is an AI-powered assistant designed to provide users with cur
 
 ## Features
 
-- **Medical Advice**: Provides tailored suggestions for cures and preventions.
-- **Hugging Face NLP Models**: Delivers precise and relevant responses to user queries.
-- **User-Friendly Interface**: Designed for seamless and intuitive interaction.
-- **Accessible 24/7**: Always available to answer medical-related questions.
+- Personalized Medical Suggestions: Tailored advice for cures and preventions based on user inputs.
+- Hugging Face FAISS: Leverages fast, scalable similarity search for precise and context-aware responses.
+- Streamlit Interface: Clean, interactive, and easy-to-use user interface.
+- 24/7 Accessibility: Always available to address medical-related queries.
 
 ## Screenshot
 
 ![Image](https://github.com/user-attachments/assets/c2816976-f4dc-4d0c-8b1c-c7aa1b308f6c)
 
-*(Replace `path/to/your/screenshot.png` with the actual path to your chatbot image)*
+
 
 ## Prerequisites
 
@@ -52,19 +52,21 @@ To run Medical-AI-ChatBot locally, ensure you have the following:
    ```bash
    python app.py
    ```
-2. Open the application in your browser (default: [http://localhost:5000](http://localhost:5000/)).
+2. Open the application in your browser (default: (http://localhost:8501/)).
 3. Interact with the chatbot by typing your medical queries in the input box.
 
 ## Project Structure
 
-- **`app.py`**: Main application script.
-- **`requirements.txt`**: List of required Python packages.
-- **`.env`**: Environment file containing sensitive API keys (not included in the repository).
+- app.py: Main Streamlit application script.
+- requirements.txt: List of required Python libraries.
+- .env: Environment variables file (excluded from version control).
+- models/: Directory for storing FAISS-related models or data.
+
 
 ## Key Libraries
 
 - **Hugging Face Transformers**: For NLP model integration.
-- **Flask/Streamlit (or your chosen framework)**: For building the user interface.
+- **Streamlit **: For building the user interface.
 - **Python-dotenv**: For managing environment variables.
 
 ## Important Notes
@@ -74,9 +76,10 @@ To run Medical-AI-ChatBot locally, ensure you have the following:
 
 ## Future Enhancements
 
-- Add support for multilingual queries.
-- Enhance context retention for more cohesive responses.
-- Incorporate region-specific medical guidelines for better localization.
+- Support for multilingual queries.
+- Improved context retention for extended conversations.
+- Integration of region-specific medical guidelines.
+
 
 ## License
 
